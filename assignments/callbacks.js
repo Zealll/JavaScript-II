@@ -69,10 +69,16 @@ function multy(x,y) {
 multiplyNums(3,5,multy)
 
 function contains(item, list, cb) {
+
+  for (let i = 0; i < contains.length; i++)
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
   return cb(item, list);
 }
+
+function check(a,b)
+
+contains(apple,apple, check)
 
 /* STRETCH PROBLEM */
 
