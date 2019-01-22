@@ -1,6 +1,29 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function personalInfo(name) {
+  const firstName = name;
+  console.log(`First-name: ${firstName}`)
+
+  function lastName(lName){
+    
+    console.log(`Last-Name: ${lName}`) 
+
+    function fullName(firstAndLast){
+      console.log(`Full-Name: ${firstAndLast}`)
+    }
+
+    fullName("Elan Riznis")
+  }
+
+  
+  lastName("Riznis")
+}
+
+personalInfo("Elan")
+
+
+
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
