@@ -27,12 +27,12 @@ personalInfo("Elan")
 
 // ==== Challenge 2: Create a counter function ====
 // Return a function that when invoked increments and returns a counter variable.
-const counter = (num) => {
-  num 0;
-  num++;
+// const counter = (num) => {
+//   num 0;
+//   num++;
   
-};
-console.log(counter())
+
+
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2

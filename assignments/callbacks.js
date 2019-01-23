@@ -70,15 +70,21 @@ multiplyNums(3,5,multy)
 
 function contains(item, list, cb) {
 
-  for (let i = 0; i < contains.length; i++)
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] === item) {
+      return cb(true);
+    }
+  }
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
-  return cb(item, list);
+  return cb(false);
 }
 
-function check(a,b)
+contains("apple", items, (bool)=>{
+  console.log(bool)
+})
 
-contains(apple,apple, check)
+
 
 /* STRETCH PROBLEM */
 
